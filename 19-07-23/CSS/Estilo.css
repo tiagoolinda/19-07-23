@@ -1,0 +1,36 @@
+    *{
+        margin: 0 auto ;
+        padding: 0;
+        font-family: Cambria, georgia, sans-serif;
+        box-sizing: border-box;
+    }
+
+    /* colocando menu na horizontal com css*/
+    #menu-h {
+        background-color: #282424;
+    }
+
+    #menu-h ul {
+        max-width: 80%;
+        padding: 0;
+    }
+
+    /* deixando o menu em linhas e não em colunas */
+        
+        #menu-h ul li {
+            display: inline;
+        }
+                
+        #menu-h ul li a {
+            color: #f6f2f2;
+            PADDING: 15px;
+            text-decoration: none; 
+            display: inline-block;
+            transition: background .8s;
+    }
+
+    #menu-h ul li a:hover{
+    background-color: #8a2be2;
+    }
+/* Efeito menu */
+
